@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+    margin: 0;
+}
+
+h1 {
+    color: #004d99;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #007bb5;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+#university-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid #004d99;
+    margin: 20px 0;
+}
+
+#login-section {
+    margin: 20px 0;
+}
+
+#login-section label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+#login-section input {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #007bb5;
+}
+
+#verify-button, #spin-button {
+    background-color: #007bb5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#verify-button:hover, #spin-button:hover {
+    background-color: #005f8d;
+    transform: scale(1.05);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #007bb5;
+}
+
+.result-animation {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#explanation {
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #333;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
